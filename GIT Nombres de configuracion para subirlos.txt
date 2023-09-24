@@ -1,0 +1,21 @@
+git status (para saber como esta si lo subi o no te dice si modifique algo o no)
+ Para pasar al remoto
+git add . (es como que preparo el archivo)
+commit es decir tenes estos archivos pasado en verde, si los tengo verde los tengo en preparado y los tengo que comitear para subir
+
+git comit -m "archivos" (con eso te dice que se subieron al repositorio, en la parte "pongo lo que hice ", "cambie imagen, agregue secciones")
+git status (te dice en que estado esta) siempre hacerlo, nos va a indicar si se subio o en que estado esta
+   rojo significa que trabaje algo pero no lo subi
+uso git add .
+   verde significa que esta preparado para subir
+uso git commit -m "modifique y agregue"
+   
+git status (chequeo el estado de los archivos)
+
+si quiere saber el historial del proyeto
+git log (dice a que hora fue modificado y por quien)
+
+
+
+
+ 
