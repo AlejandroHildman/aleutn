@@ -1,0 +1,46 @@
+h1 {
+    color: brown;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large
+}
+
+h2 {
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: green;
+}
+
+img {
+    border: 3px dotted black
+}
+
+.destacados {
+    text-align: center;
+}
+span{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+#azul {
+    width:200px;
+    height:100px;
+    background-color:blue;
+    border: 2px black;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+#rojo {
+    width:200px;
+    height:90px;
+    background-color:blue;
+    border: 2px black;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-left: 300px;
+}
