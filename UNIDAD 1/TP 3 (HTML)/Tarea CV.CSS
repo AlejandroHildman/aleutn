@@ -8,6 +8,9 @@ h1 {
 h2 {
     background-color: yellow;
     text-transform: uppercase;
+    font-family: "Lemon", serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 h4 {
@@ -34,6 +37,8 @@ span{
     padding: 2px;
     box-sizing: border-box;
     margin-left: 50px;
+    box-shadow: 9px 10px 12px 0px rgba(0,0,0,0.58);
+    border-radius: 10px 25px;
 }
 #rojo {
     width:200px;
@@ -43,4 +48,25 @@ span{
     padding: 2px;
     box-sizing: border-box;
     margin-left: 300px;
+    box-shadow: 9px 10px 12px 0px rgba(0,0,0,0.72);
+    border-radius: 10px 25px;
 }
+.amarillo {
+    background-color: yellow;
+    border-radius: 15px 15px;
+    width: 500px;
+    column-rule: 0.5px solid black;
+    column-count: 2;
+    border-top: 2px;
+    box-sizing: border-box;
+}
+
+.amarillo p {
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+
+
+
