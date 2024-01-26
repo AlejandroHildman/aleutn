@@ -1,0 +1,36 @@
+h1 {
+    background-color: aqua;
+    margin-top: 0px;
+
+}
+
+ul {
+    background-color:#F1F2C0;
+    margin-top: 40px;
+    margin-left: auto;
+    /*align-items:center;*/
+    list-style: none;
+    width: auto;
+    
+    
+    /*padding: 10px;*/
+    /*float:left;*/ 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.jere {
+    background-color:#F1F2C0;
+    margin-top: 120px;
+    align-items: flex-start;
+
+}
+
+
+aside {
+    background-color:#CCC59E;
+}
+

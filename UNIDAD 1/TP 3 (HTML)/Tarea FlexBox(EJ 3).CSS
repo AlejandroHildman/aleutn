@@ -1,0 +1,19 @@
+#rojo {
+    background-color: brown;
+
+}
+
+#azul {
+    background-color:blue;
+
+}
+
+#verde {
+background-color: green;
+
+}
+
+#amarillo {
+    display:flex;
+    justify-content: space-between; 
+}
