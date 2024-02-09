@@ -1,0 +1,210 @@
+
+header {
+  background-color: bisque;
+  /*padding:8px;*/   /*si le agrego otro px hace que la foto se mueva a la derecha, la puedo centrar, el padding me va a dar distancia con el top*/
+  margin: top 0%;; 
+  /*width: 100%*/
+}
+body {
+  margin-top: 0px;
+  width: 100%;
+}
+nav {
+background-color: blanchedalmond;
+/*padding: 15px;*/  /*buena opcion , hace mas grande la barra del naav , no queda feo*/
+margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+   flex-grow:1;
+}
+
+nav ul li a.holder {
+  background-color: rgba(0,0,0,0.5)
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%; 
+}
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%; 
+}
+nav ul li a.activo {
+  background-color:   rgba(7, 158, 158, 0.3)
+}
+a {
+    text-decoration:none;
+    text-transform:uppercase;
+    color: white;
+}
+.enlace {
+  text-decoration: none;
+  color: black;
+}
+main h2 {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+main h3 {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+main h4 {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+span {
+  position: relative;
+  top: -50px;
+}
+.mica {
+  width: 250px;
+  height: 250px;
+  /*border: 0.5px solid black;*/
+  
+}
+.noticia {
+ width: 450px;
+ height: 350px;
+ margin-left: 15px;
+ border: 0.25px #333 solid ;
+}
+.noticias {
+  width: 440px;
+  height: 350px;
+  margin-left: 25px;
+  border: 0.25px #333 solid ;
+}
+.formulario {
+ display: flex;
+}
+.formularios {
+ width: 100%;
+  max-width: 100px;  
+}                
+.datos {
+  font-family: "Mulish", sans-serif 14px;
+}
+main ul li {
+  font-family: "Mulish", sans-serif 12px;
+}
+h4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul {
+  list-style: none; 
+}
+.contenedor {
+  /*background-color: violet;*/
+ display:flex;
+}
+.forma {
+  /*display: flex;*/
+  text-align: center;
+  /box-sizing: border-box*/
+}
+.cuadrado {
+  columns: 2;
+}
+.wpp {
+  width: 15px;
+  height: 17px;;
+}
+.correo {
+  width: 15px;
+  height: 17px;
+}
+.facebook {
+  width: 15px;
+  height: 17px;
+}
+.formularios p input,
+.fomularios p textarea {
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 15px;
+  background-color: #ddd;
+
+}
+.mensaje input {
+  height: 120px;
+}
+
+.datos p {
+  font-family: "Mulish", sans-serif;
+}
+.laboral {
+  /*background-color: rgb(134, 58, 134);*/
+  border: 2px solid rgb(134, 58, 134);
+  /*height: 20px;
+  width: 80px;*/ 
+}
+.divorcios {
+  /*background-color: rgb(134, 58, 134);*/
+  border: 2px solid rgb(134, 58, 134);
+}
+.sucesiones {
+  /*background-color: rgb(134, 58, 134);*/
+  border: 2px solid rgb(134, 58, 134);
+}
+.pensiones {
+  /*background-color: rgb(134, 58, 134);*/
+  border: 2px solid rgb(134, 58, 134);
+}
+.cuotasalimentarias {
+  /*background-color: rgb(134, 58, 134);*/
+  border: 2px solid rgb(134, 58, 134);
+}
+.denuncias {
+  /*background-color: rgb(134, 58, 134);*/
+  border: 2px solid rgb(134, 58, 134);
+}
+.registroautoviv {
+ /*   background-color: rgb(134, 58, 134);*/
+    border: 2px solid rgb(134, 58, 134);
+  }
+.banerespe {
+  width: 100% ;
+  border: 0.40px solid bisque;
+}
+footer {
+  background-color:#ccc;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 100%;
+}
+
+
+/*
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 900
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
+/*
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 1000
+
+.mulish-<uniquifier> {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
